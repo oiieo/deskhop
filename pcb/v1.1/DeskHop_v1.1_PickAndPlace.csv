@@ -1,0 +1,15 @@
+Designator,Value,Package,Mid X,Mid Y,Rotation,Layer,Comment
+C1,100nF,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+C2,100nF,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+C3,4.7uF,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+C4,4.7uF,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+R1,27Ω,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+R2,27Ω,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+R3,27Ω,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+R4,27Ω,0805,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+U3,TPD4E1U06DBVR,SOT-23-6,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+U4,ISO7721DR,SOIC-8,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+U5,TPD4E1U06DBVR,SOT-23-6,0.0,0.0,0,Top,Placeholder - coordinates need to be exported from KiCad
+
+Note: This is a template file. Actual coordinates and rotations need to be exported from KiCad using:
+File -> Fabrication Outputs -> Component Placement (.pos)

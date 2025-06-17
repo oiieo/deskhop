@@ -1,0 +1,21 @@
+Item #,Quantity,Reference Designator,Manufacturer,Manufacturer Part Number,Description,Package/Footprint,Unit Price (USD),Extended Price (USD),Notes
+1,2,"U1,U2",Raspberry Pi,SC0915,Raspberry Pi Pico Microcontroller Board,Through-hole module,4.00,8.00,Main microcontroller boards
+2,1,U4,Texas Instruments,ISO7721DR,Dual-channel Digital Isolator 2kV 150Mbps,SOIC-8,1.40,1.40,Alternative: ADuM1201BRZ (Analog Devices)
+3,2,"U3,U5",Texas Instruments,TPD4E1U06DBVR,4-Channel ESD Protection Diode Array,SOT-23-6,0.31,0.62,USB protection
+4,2,"C1,C2",Samsung,CL21B104KBCNNNC,Ceramic Capacitor 100nF 50V X7R ±10%,0805 (2012 Metric),0.09,0.18,Decoupling capacitors
+5,2,"C3,C4",Samsung,CL21A475KAQNNNE,Ceramic Capacitor 4.7uF 25V X5R ±10%,0805 (2012 Metric),0.07,0.14,USB VBUS capacitors
+6,4,"R1,R2,R3,R4",Yageo,RC0805FR-0727RL,Chip Resistor 27Ω 1/8W ±1%,0805 (2012 Metric),0.03,0.12,USB termination resistors
+7,2,"J1,J4",Molex,MX-67643-0910,USB Type-A Female PCB Mount Right Angle,Through-hole,0.20,0.40,Can use generic USB-A connector with same footprint
+8,2,"J2,J3",Molex,22-28-4030,Pin Header 2.54mm pitch 1x3 Male,Through-hole,0.08,0.16,Standard 2.54mm headers
+
+Total Components:,17,,,,,,,11.02,
+Total Unique Parts:,8,,,,,,,,,
+
+Assembly Notes:
+1. PCB Thickness: 1.6mm (required for proper case fit)
+2. U4 Alternative: ADuM1201BRZ can be used instead of ISO7721DR (pin-compatible but more expensive)
+3. All SMD components are on the top side of the PCB
+4. Ensure proper orientation of U3, U4, U5 (pin 1 markers)
+5. The Raspberry Pi Picos should be soldered with headers facing down (USB connectors accessible)
+6. J2 and J3 are for optional debug/UART connections
+7. Clean flux residue after assembly to prevent corrosion

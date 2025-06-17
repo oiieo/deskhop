@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,Quantity,Manufacturer Part Number,Manufacturer,Description,Type,Value
+"Raspberry Pi Pico","U1,U2","Through-hole module",2,"SC0915","Raspberry Pi","Raspberry Pi Pico Microcontroller Board","Module","Raspberry Pi Pico"
+"Digital Isolator","U4","SOIC-8",1,"ISO7721DR","Texas Instruments","Dual-channel Digital Isolator 2kV","IC","ISO7721DR"
+"TVS Diode Array","U3,U5","SOT-23-6",2,"TPD4E1U06DBVR","Texas Instruments","4-Channel ESD Protection Diode Array","IC","TPD4E1U06DBVR"
+"Ceramic Capacitor","C1,C2","0805",2,"CL21B104KBCNNNC","Samsung","Ceramic Capacitor 100nF 50V X7R 10%","Capacitor","100nF"
+"Ceramic Capacitor","C3,C4","0805",2,"CL21A475KAQNNNE","Samsung","Ceramic Capacitor 4.7uF 25V X5R 10%","Capacitor","4.7uF"
+"Resistor","R1,R2,R3,R4","0805",4,"RC0805FR-0727RL","Yageo","Chip Resistor 27 Ohm 1/8W 1%","Resistor","27Ω"
+"USB-A Female Connector","J1,J4","Through-hole",2,"MX-67643-0910","Molex","USB Type-A Female PCB Mount Connector","Connector","USB-A Female"
+"Pin Header","J2,J3","2.54mm pitch 1x3",2,"22-28-4030","Molex","Pin Header 2.54mm 1x3 Male","Connector","Header 1x3"
